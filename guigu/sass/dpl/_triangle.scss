@@ -1,0 +1,63 @@
+.triangle-down{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 4px 4px 0 4px;
+	border-color: #050505 transparent transparent transparent;
+	line-height: 0px;
+	_border-color: #050505 #000000 #000000 #000000;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+	@include inline-block;
+	margin-left: 2px;
+}
+
+.triangle-up{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 4px 4px 4px;
+	border-color: transparent transparent #050505 transparent;
+	line-height: 0px;
+	_border-color: #000000 #000000 #050505 #000000;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+	@include inline-block;
+	margin-left: 2px;
+
+}
+
+@mixin triangle-down($color){
+	border-color: $color transparent transparent transparent;
+	_border-color: $color #000000 #000000 #000000;
+}
+
+@mixin triangle-up($color){
+	border-color: transparent transparent $color transparent;
+	_border-color: #000000 #000000 $color #000000;
+}
+
+	.triangle-down-white{
+		@include triangle-down($white);
+	}
+	.triangle-down-yellow{
+		@include triangle-down($yellow);
+	}
+	.triangle-down-green{
+		@include triangle-down($green);
+	}
+	.triangle-down-md{
+		border-width: 6px 6px 0 6px;
+	}
+
+
+	.triangle-up-white{
+		@include triangle-up($white);
+	}
+	.triangle-up-yellow{
+		@include triangle-up($yellow);
+	}
+	.triangle-up-green{
+		@include triangle-up($green);
+	}
+	.triangle-up-md{
+		border-width: 0 6px 6px 6px;
+	}

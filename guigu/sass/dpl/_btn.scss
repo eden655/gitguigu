@@ -1,0 +1,93 @@
+.btn{
+  color: #fff;
+  background: #85c51f;
+  font-size: 14px;
+  padding: 8px 14px;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  margin-right: 9px;
+  @include inline-block;
+  @include border-radius(2px);
+  line-height: 1.428;
+  margin-bottom: 9px;
+  &:focus{
+    border: 0;
+    outline: 0;
+    color: #fff;
+  }
+  &:hover{
+    background: #80bd1e;
+    color: #fff;
+  }
+  &:active{
+    border: 0;
+    outline: 0;
+    background: #77b11c;
+    color: #fff;
+  }
+}
+.btn-move{
+  &:hover{
+    @include box-shadow(1px 1px 4px #BBB);
+  }
+  &:active{
+    left: 1px;
+    top: 1px;
+  }
+}
+.btn-large{
+  padding: 9px 39px;
+  font-size: 17.5px;
+  margin-right: 12px;
+  @include border-radius(3px);
+}
+.btn-mini{
+  padding: 4px 10px;
+  font-size: 10px;
+  margin-right: 5px;
+  @include border-radius(1px);
+}
+.btn-yellow{
+  background: #f4aa28;
+  &:hover{
+    background: #f3a720;
+  }
+  &:active{
+    background: #f2a31a;
+  }
+}
+.btn-gray{
+      background: #f3f3f3;
+      color: #666;
+      &:hover{
+        background: #eeeded;
+        color: #666;
+      }
+      &:active{
+        background: #eae7e7;
+        color: #666;
+      }
+      &:focus{
+        background: #eae7e7;
+        color: #666;
+      }
+    }
+.btn[disabled]
+{
+  color: #666;
+  background: #f3f3f3;
+  &:hover{
+    background: #f3f3f3;
+    color: #666;
+    cursor:default;
+  }
+  &:active{
+    border: 0;
+    outline: 0;
+    background: #f3f3f3;
+    color: #666;
+    top:0;
+    left:0;
+  }
+}

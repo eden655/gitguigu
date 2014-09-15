@@ -1,0 +1,37 @@
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+  cursor: pointer;
+}
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.radio-group,
+.checkbox-group{// checkbox or radio group mask
+	margin-bottom: 9px;
+	label{
+		padding-left: 20px;
+		font-weight: 400;
+		cursor: pointer;
+		max-width: 100%;
+		position: relative;
+		@include inline-block;
+		input[type="radio"],
+        input[type="checkbox"]{
+        	margin-left: -16px;
+        	position: absolute;
+        }
+	}
+}
+.radio-group-more,
+.checkbox-group-more{// more than one checkbox or radio group mask
+	label{
+		margin-right: 16px;
+	}
+}

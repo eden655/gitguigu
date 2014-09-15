@@ -1,0 +1,29 @@
+$white: #ffffff;
+$yellow: #f4a928;
+$green: #85c51f;
+
+@mixin anim($name,$time1,$linear,$time2,$numb,$yesorno){
+	animation: $name $time1 $linear $time2 $numb $yesorno;
+	-webkit-animation: $name $time1 $linear $time2 $numb $yesorno;
+	-moz-animation: $name $time1 $linear $time2 $numb $yesorno;
+	-o-animation: $name $time1 $linear $time2 $numb $yesorno;
+}
+@mixin transform-origin-y($num){
+	transform-origin-y: $num;
+	-webkit-transform-origin-y: $num;
+	-moz-transform-origin-y: $num;
+	-o-transform-origin-y: $num;
+	-ms-transform-origin-y: $num;
+}
+
+@import "compass/css3";
+@import "dpl/_text.scss";
+@import "dpl/_input.scss";
+@import "dpl/_btn.scss";
+@import "dpl/_select.scss";
+@import "dpl/_table.scss";
+@import "dpl/_formgroup.scss";
+@import "dpl/_width.scss";
+@import "dpl/_img.scss";
+@import "dpl/_triangle.scss";
+@import "dpl/_progressbar.scss";

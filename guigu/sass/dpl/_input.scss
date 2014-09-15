@@ -1,0 +1,46 @@
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+input[type="password"]{
+  width: 100%;
+  height: 34px;
+  line-height: 34px\9;
+  _line-height: 34px;
+  @include border-radius(3px);
+  border: 1px solid #E9E9E9;
+  color: #999;
+  font-size: 14px;
+  padding-left: 0.5em;
+  @include transition(0.2s);
+  &:focus{
+    border-color: rgba(82, 168, 236, 0.8);
+    outline: 0;
+    outline: thin dotted \9;
+    color: #999;
+    @include box-shadow(0 1px 1px rgba(0, 0, 0, 0.075) inset,0 0 5px rgba(82, 168, 236, 0.6));
+  }
+}
+input[disabled]{
+  cursor: not-allowed;
+  background-color: #F6F6F6;
+}
+
+input[type="search"].error,
+input[type="text"].error,
+input[type="password"].error,
+input[type="email"].error,
+input[type="number"].error,
+input[type="tel"].error{
+  border-color: rgba(236, 0, 0, 0.8);
+  @include box-shadow(0 1px 1px rgba(0, 0, 0, 0.075) inset,0 0 5px rgba(236, 0, 0, 0.8));
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="tel"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder{
+  color: #ccc;
+}

@@ -1,0 +1,87 @@
+table{
+  border-color: transparent;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.table{
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 16px;
+  thead{
+    tr{
+      th{
+        border-bottom: 1px solid #eee;
+        vertical-align: bottom;
+        padding: 7px;
+        line-height: 1.428;
+        text-align: left;
+      }
+    }
+  }
+  tbody{
+    tr{
+      td{
+        padding: 7px;
+        border-top: 1px solid #eee;
+        vertical-align: top;
+        line-height: 1.428;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.table-odd{
+  tbody{
+    tr{
+      &:nth-child(odd){
+        td{
+          background: #f9f9f9;
+        }
+      }
+    }
+  }
+}
+.table-border{
+  border: 1px solid #eee;
+  thead{
+    tr{
+      th{
+        border: 1px solid #eee;
+      }
+    }
+  }
+  tbody{
+    tr{
+      td{
+        border: 1px solid #eee;
+      }
+    }
+  }
+}
+.table-hover{
+  tbody{
+    tr{
+      &:hover{
+        td{
+          background: #f5f5f5;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px){
+  .table-auto{//phone screen hidden part
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    table{
+      th{
+        white-space: nowrap;
+      }
+      td{
+        white-space: nowrap;
+      }
+    }
+  }
+}

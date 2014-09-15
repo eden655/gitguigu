@@ -1,0 +1,83 @@
+
+说明文档写的不清晰的，就看着demo理解下：
+
+.contanier在屏幕不同宽度下，分为四种宽度
+	1.屏幕>1200px .contanier宽度为1170px（大屏幕PC)
+	2.屏幕>992px .contanier宽度为970px(中等屏幕PC)
+	3.屏幕>768px .contanier宽度为750px(pad)
+	4.屏幕<768px .contanier宽度为100%(phone)（默认有9px的左右内补）
+
+.pc-span* .ph-span* 必须包裹在.contanier之内 并且contanier内部同级的.p*-span*之和必须等于12
+.ph-span*（手机端）   .pc-span*（非手机端）
+.ph-span* .pc-span*需要添加到同一个div上
+支持嵌套
+.pc-span-offset* .ph-span-offset*为偏移列，偏移大小从1~12不等
+
+.span* 是从1~12的width= 8.33333333%~100% 的类
+
+body默认的color:#333; font-size:14px;
+
+默认布局为border-box布局（也就是说你设置的width包含了content、padding、border）---不支持ie6、7 做项目的时候遇到问题再去修正
+
+使用class="clearfix"可以清除浮动
+
+a标签默认没下划线，绿色
+
+li默认无标示
+
+h1~h6 p标签都已经定义了字体大小，并规定margin-bottom: 9px;
+在这7个标签内部可以使用<small></small>标签来做一个相对父元素80%字体大小的淡颜色的字
+
+在p标签上加.text-zh的class可以给本段文本首行缩进2个字符
+
+添加.text-center .text-left .text-right可以实现对齐方式的不同
+
+.float-left .float-right简单粗暴的强制浮动
+
+abbr标签可以直接用来做缩写，也已经美化过了
+
+input样式默认input[type="search"],input[type="text"],input[type="tel"],input[type="email"],input[type="number"],input[type="password"]   这些都美化过了，默认发蓝色光线
+
+input[disabled]
+给input添加class="error"可以添加红色边框（警示色）
+
+button样式无论是a标签还是button标签 直接添加.btn(默认是绿色)
+	下面还有.btn-large(大按钮) .btn-mini(小按钮) .btn-yellow (黄色).btn-gray(灰色)
+	.btn[disabled] 可以添加
+	.btn-move 可以添加按钮质感特效
+		前提是先加上.btn
+
+现在单选框和复选框都是用label标签包裹的，这样可以在点击label的时候就可以选中单/复选框，如果要在表单里面使用，请在label外面加一个class="checkbox-group"的div ，如果div中不止一个复选框，或者是里面是单选框，请在外面加class="checkbox-group checkbox-group-more"的div
+
+table表格默认无样式
+直接在table上加class="table"可以增加分栏线
+加.table-odd可以增加隔行深色背景
+加.table-border可以增加table边框
+加.table-hover可以增加鼠标移动到每行上的行背景变化
+在table外面包裹<div class="table-auto"></div>可以适应手机屏幕
+
+
+给一个span加上.triangle-down 或者 .triangle-up 可以制作向下或者向上的三角形，默认是黑色的，可以添加.triangle-*-white .triangle-*-yellow .triangle*-green 这三种颜色备选，另外可以添加.triangle-*-md使三角形大一点
+
+
+进度条的在demo里面有，大家用的时候直接拷贝就行
+
+
+如果要兼容ie67的话，请在style.css之后引入widthie67.css
+<!--[if lt IE 8]>
+        <link rel="stylesheet" type="text/css" href="stylesheets/widthie67.css">
+    <![endif]-->
+
+
+
+
+使用compass编译，带下划线的（例如_home.scss）不会直接编译，而需要引用到不带下划线的scss文件中，事例具体看style.scss
+
+另外多人合作，自己新建_xxx.scss引用到style.scss中
+
+这个新建的project我测试有限（具体看我的demo），有什么问题可以反馈给我
+
+Six_Nine@outlook.com或者946401639@qq.com
+
+						----德旺
+

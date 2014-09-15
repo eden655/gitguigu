@@ -1,0 +1,40 @@
+.container{// add all per = 10
+	width: 970px;
+	margin: 0 auto;
+	&::before,&::after{
+		content: '';
+		display: table;
+		line-height: 0;
+	}
+	&::after{
+		clear: both;
+	}
+	@for $i from 0 to 12{
+		.pc-span#{$i+1}{
+			width: 8.33% * ($i+1);
+			float: left;
+			&::before,&::after{
+				content: '';
+				display: table;
+				line-height: 0;
+			}
+			&::after{
+				clear: both;
+			}
+		}
+	}
+	@for $i from 0 to 12{
+		.pc-span-offset#{$i+1}{
+			margin-left: 8.33% * ($i+1);
+			_margin-left: 4.16% * ($i+1);
+			float: left;
+			_display: inline;
+		}
+	}
+}
+@for $i from 1 to 13{ //only for percent
+	.span#{$i}{
+		width: 8.3333333333% * $i;
+		float: left;
+	}
+}
