@@ -1,4 +1,4 @@
-仿bootstrap框架，支持ie6，ie7
+仿bootstrap3框架，支持ie6，ie7
 ========
 框架还未完善，待修改
 -----
