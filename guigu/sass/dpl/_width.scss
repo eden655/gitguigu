@@ -7,8 +7,56 @@ $screen_sm: 768px;
 $screen_md: 992px;
 $screen_lg: 1200px;
 
-
-
+@media screen and (min-width: $screen_lg) { //large PC
+  .container {
+    width: 1170px;
+    @for $i from 0 to 12{
+		.pc-span#{$i+1}{
+			width: 8.3333333333% * ($i+1);
+			float: left;
+			&::before,&::after{
+				content: '';
+				display: table;
+				line-height: 0;
+			}
+			&::after{
+				clear: both;
+			}
+		}
+	}
+	@for $i from 0 to 12{
+		.pc-span-offset#{$i+1}{
+			margin-left: 8.3333333333% * ($i+1);
+			float: left;
+		}
+	}
+  }
+}
+@media screen and (min-width: $screen_md) { //middle PC
+  .container {
+    width: 970px;
+    @for $i from 0 to 12{
+		.pc-span#{$i+1}{
+			width: 8.3333333333% * ($i+1);
+			float: left;
+			&::before,&::after{
+				content: '';
+				display: table;
+				line-height: 0;
+			}
+			&::after{
+				clear: both;
+			}
+		}
+	}
+	@for $i from 0 to 12{
+		.pc-span-offset#{$i+1}{
+			margin-left: 8.3333333333% * ($i+1);
+			float: left;
+		}
+	}
+  }
+}
 .container{// add all per = 10
 	width: 970px;
 	margin: 0 auto;
@@ -66,56 +114,8 @@ $screen_lg: 1200px;
 	}
   }
 }
-@media screen and (min-width: $screen_md) { //middle PC
-  .container {
-    width: 970px;
-    @for $i from 0 to 12{
-		.pc-span#{$i+1}{
-			width: 8.3333333333% * ($i+1);
-			float: left;
-			&::before,&::after{
-				content: '';
-				display: table;
-				line-height: 0;
-			}
-			&::after{
-				clear: both;
-			}
-		}
-	}
-	@for $i from 0 to 12{
-		.pc-span-offset#{$i+1}{
-			margin-left: 8.3333333333% * ($i+1);
-			float: left;
-		}
-	}
-  }
-}
-@media screen and (min-width: $screen_lg) { //large PC
-  .container {
-    width: 1170px;
-    @for $i from 0 to 12{
-		.pc-span#{$i+1}{
-			width: 8.3333333333% * ($i+1);
-			float: left;
-			&::before,&::after{
-				content: '';
-				display: table;
-				line-height: 0;
-			}
-			&::after{
-				clear: both;
-			}
-		}
-	}
-	@for $i from 0 to 12{
-		.pc-span-offset#{$i+1}{
-			margin-left: 8.3333333333% * ($i+1);
-			float: left;
-		}
-	}
-  }
-}
+
+
 @media screen and (max-width: $screen_sm){// phone
 	body{
 		overflow-x: hidden;
@@ -141,9 +141,9 @@ $screen_lg: 1200px;
 	}
 }
 
-@for $i from 1 to 13{ //only for percent
+@for $i from 1 to 11{ //only for percent
 	.span#{$i}{
-		width: 8.3333333333% * $i;
+		width: 10% * $i;
 		float: left;
 	}
 }

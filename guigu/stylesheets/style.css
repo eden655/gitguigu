@@ -536,755 +536,755 @@ input[type="checkbox"]:focus {
   margin-right: 16px;
 }
 
-/* line 12, ../sass/dpl/_width.scss */
-.container {
-  width: 970px;
-  margin: 0 auto;
-}
-/* line 15, ../sass/dpl/_width.scss */
-.container::before, .container::after {
-  content: '';
-  display: table;
-  line-height: 0;
-}
-/* line 20, ../sass/dpl/_width.scss */
-.container::after {
-  clear: both;
-}
-
-@media screen and (min-width: 768px) {
-  /* line 45, ../sass/dpl/_width.scss */
+@media screen and (min-width: 1200px) {
+  /* line 11, ../sass/dpl/_width.scss */
   .container {
-    width: 750px;
+    width: 1170px;
   }
-  /* line 48, ../sass/dpl/_width.scss */
+  /* line 14, ../sass/dpl/_width.scss */
   .container .pc-span1 {
     width: 8.33333%;
     float: left;
   }
-  /* line 51, ../sass/dpl/_width.scss */
+  /* line 17, ../sass/dpl/_width.scss */
   .container .pc-span1::before, .container .pc-span1::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 56, ../sass/dpl/_width.scss */
+  /* line 22, ../sass/dpl/_width.scss */
   .container .pc-span1::after {
     clear: both;
   }
-  /* line 48, ../sass/dpl/_width.scss */
+  /* line 14, ../sass/dpl/_width.scss */
   .container .pc-span2 {
     width: 16.66667%;
     float: left;
   }
-  /* line 51, ../sass/dpl/_width.scss */
+  /* line 17, ../sass/dpl/_width.scss */
   .container .pc-span2::before, .container .pc-span2::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 56, ../sass/dpl/_width.scss */
+  /* line 22, ../sass/dpl/_width.scss */
   .container .pc-span2::after {
     clear: both;
   }
-  /* line 48, ../sass/dpl/_width.scss */
+  /* line 14, ../sass/dpl/_width.scss */
   .container .pc-span3 {
     width: 25.0%;
     float: left;
   }
-  /* line 51, ../sass/dpl/_width.scss */
+  /* line 17, ../sass/dpl/_width.scss */
   .container .pc-span3::before, .container .pc-span3::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 56, ../sass/dpl/_width.scss */
+  /* line 22, ../sass/dpl/_width.scss */
   .container .pc-span3::after {
     clear: both;
   }
-  /* line 48, ../sass/dpl/_width.scss */
+  /* line 14, ../sass/dpl/_width.scss */
   .container .pc-span4 {
     width: 33.33333%;
     float: left;
   }
-  /* line 51, ../sass/dpl/_width.scss */
+  /* line 17, ../sass/dpl/_width.scss */
   .container .pc-span4::before, .container .pc-span4::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 56, ../sass/dpl/_width.scss */
+  /* line 22, ../sass/dpl/_width.scss */
   .container .pc-span4::after {
     clear: both;
   }
-  /* line 48, ../sass/dpl/_width.scss */
+  /* line 14, ../sass/dpl/_width.scss */
   .container .pc-span5 {
     width: 41.66667%;
     float: left;
   }
-  /* line 51, ../sass/dpl/_width.scss */
+  /* line 17, ../sass/dpl/_width.scss */
   .container .pc-span5::before, .container .pc-span5::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 56, ../sass/dpl/_width.scss */
+  /* line 22, ../sass/dpl/_width.scss */
   .container .pc-span5::after {
     clear: both;
   }
-  /* line 48, ../sass/dpl/_width.scss */
+  /* line 14, ../sass/dpl/_width.scss */
   .container .pc-span6 {
     width: 50.0%;
     float: left;
   }
-  /* line 51, ../sass/dpl/_width.scss */
+  /* line 17, ../sass/dpl/_width.scss */
   .container .pc-span6::before, .container .pc-span6::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 56, ../sass/dpl/_width.scss */
+  /* line 22, ../sass/dpl/_width.scss */
   .container .pc-span6::after {
     clear: both;
   }
-  /* line 48, ../sass/dpl/_width.scss */
+  /* line 14, ../sass/dpl/_width.scss */
   .container .pc-span7 {
     width: 58.33333%;
     float: left;
   }
-  /* line 51, ../sass/dpl/_width.scss */
+  /* line 17, ../sass/dpl/_width.scss */
   .container .pc-span7::before, .container .pc-span7::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 56, ../sass/dpl/_width.scss */
+  /* line 22, ../sass/dpl/_width.scss */
   .container .pc-span7::after {
     clear: both;
   }
-  /* line 48, ../sass/dpl/_width.scss */
+  /* line 14, ../sass/dpl/_width.scss */
   .container .pc-span8 {
     width: 66.66667%;
     float: left;
   }
-  /* line 51, ../sass/dpl/_width.scss */
+  /* line 17, ../sass/dpl/_width.scss */
   .container .pc-span8::before, .container .pc-span8::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 56, ../sass/dpl/_width.scss */
+  /* line 22, ../sass/dpl/_width.scss */
   .container .pc-span8::after {
     clear: both;
   }
-  /* line 48, ../sass/dpl/_width.scss */
+  /* line 14, ../sass/dpl/_width.scss */
   .container .pc-span9 {
     width: 75.0%;
     float: left;
   }
-  /* line 51, ../sass/dpl/_width.scss */
+  /* line 17, ../sass/dpl/_width.scss */
   .container .pc-span9::before, .container .pc-span9::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 56, ../sass/dpl/_width.scss */
+  /* line 22, ../sass/dpl/_width.scss */
   .container .pc-span9::after {
     clear: both;
   }
-  /* line 48, ../sass/dpl/_width.scss */
+  /* line 14, ../sass/dpl/_width.scss */
   .container .pc-span10 {
     width: 83.33333%;
     float: left;
   }
-  /* line 51, ../sass/dpl/_width.scss */
+  /* line 17, ../sass/dpl/_width.scss */
   .container .pc-span10::before, .container .pc-span10::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 56, ../sass/dpl/_width.scss */
+  /* line 22, ../sass/dpl/_width.scss */
   .container .pc-span10::after {
     clear: both;
   }
-  /* line 48, ../sass/dpl/_width.scss */
+  /* line 14, ../sass/dpl/_width.scss */
   .container .pc-span11 {
     width: 91.66667%;
     float: left;
   }
-  /* line 51, ../sass/dpl/_width.scss */
+  /* line 17, ../sass/dpl/_width.scss */
   .container .pc-span11::before, .container .pc-span11::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 56, ../sass/dpl/_width.scss */
+  /* line 22, ../sass/dpl/_width.scss */
   .container .pc-span11::after {
     clear: both;
   }
-  /* line 48, ../sass/dpl/_width.scss */
+  /* line 14, ../sass/dpl/_width.scss */
   .container .pc-span12 {
     width: 100.0%;
     float: left;
   }
-  /* line 51, ../sass/dpl/_width.scss */
+  /* line 17, ../sass/dpl/_width.scss */
   .container .pc-span12::before, .container .pc-span12::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 56, ../sass/dpl/_width.scss */
+  /* line 22, ../sass/dpl/_width.scss */
   .container .pc-span12::after {
     clear: both;
   }
-  /* line 62, ../sass/dpl/_width.scss */
+  /* line 28, ../sass/dpl/_width.scss */
   .container .pc-span-offset1 {
     margin-left: 8.33333%;
     float: left;
   }
-  /* line 62, ../sass/dpl/_width.scss */
+  /* line 28, ../sass/dpl/_width.scss */
   .container .pc-span-offset2 {
     margin-left: 16.66667%;
     float: left;
   }
-  /* line 62, ../sass/dpl/_width.scss */
+  /* line 28, ../sass/dpl/_width.scss */
   .container .pc-span-offset3 {
     margin-left: 25.0%;
     float: left;
   }
-  /* line 62, ../sass/dpl/_width.scss */
+  /* line 28, ../sass/dpl/_width.scss */
   .container .pc-span-offset4 {
     margin-left: 33.33333%;
     float: left;
   }
-  /* line 62, ../sass/dpl/_width.scss */
+  /* line 28, ../sass/dpl/_width.scss */
   .container .pc-span-offset5 {
     margin-left: 41.66667%;
     float: left;
   }
-  /* line 62, ../sass/dpl/_width.scss */
+  /* line 28, ../sass/dpl/_width.scss */
   .container .pc-span-offset6 {
     margin-left: 50.0%;
     float: left;
   }
-  /* line 62, ../sass/dpl/_width.scss */
+  /* line 28, ../sass/dpl/_width.scss */
   .container .pc-span-offset7 {
     margin-left: 58.33333%;
     float: left;
   }
-  /* line 62, ../sass/dpl/_width.scss */
+  /* line 28, ../sass/dpl/_width.scss */
   .container .pc-span-offset8 {
     margin-left: 66.66667%;
     float: left;
   }
-  /* line 62, ../sass/dpl/_width.scss */
+  /* line 28, ../sass/dpl/_width.scss */
   .container .pc-span-offset9 {
     margin-left: 75.0%;
     float: left;
   }
-  /* line 62, ../sass/dpl/_width.scss */
+  /* line 28, ../sass/dpl/_width.scss */
   .container .pc-span-offset10 {
     margin-left: 83.33333%;
     float: left;
   }
-  /* line 62, ../sass/dpl/_width.scss */
+  /* line 28, ../sass/dpl/_width.scss */
   .container .pc-span-offset11 {
     margin-left: 91.66667%;
     float: left;
   }
-  /* line 62, ../sass/dpl/_width.scss */
+  /* line 28, ../sass/dpl/_width.scss */
   .container .pc-span-offset12 {
     margin-left: 100.0%;
     float: left;
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 70, ../sass/dpl/_width.scss */
+  /* line 36, ../sass/dpl/_width.scss */
   .container {
     width: 970px;
   }
-  /* line 73, ../sass/dpl/_width.scss */
+  /* line 39, ../sass/dpl/_width.scss */
   .container .pc-span1 {
     width: 8.33333%;
     float: left;
   }
-  /* line 76, ../sass/dpl/_width.scss */
+  /* line 42, ../sass/dpl/_width.scss */
   .container .pc-span1::before, .container .pc-span1::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 81, ../sass/dpl/_width.scss */
+  /* line 47, ../sass/dpl/_width.scss */
   .container .pc-span1::after {
     clear: both;
   }
-  /* line 73, ../sass/dpl/_width.scss */
+  /* line 39, ../sass/dpl/_width.scss */
   .container .pc-span2 {
     width: 16.66667%;
     float: left;
   }
-  /* line 76, ../sass/dpl/_width.scss */
+  /* line 42, ../sass/dpl/_width.scss */
   .container .pc-span2::before, .container .pc-span2::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 81, ../sass/dpl/_width.scss */
+  /* line 47, ../sass/dpl/_width.scss */
   .container .pc-span2::after {
     clear: both;
   }
-  /* line 73, ../sass/dpl/_width.scss */
+  /* line 39, ../sass/dpl/_width.scss */
   .container .pc-span3 {
     width: 25.0%;
     float: left;
   }
-  /* line 76, ../sass/dpl/_width.scss */
+  /* line 42, ../sass/dpl/_width.scss */
   .container .pc-span3::before, .container .pc-span3::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 81, ../sass/dpl/_width.scss */
+  /* line 47, ../sass/dpl/_width.scss */
   .container .pc-span3::after {
     clear: both;
   }
-  /* line 73, ../sass/dpl/_width.scss */
+  /* line 39, ../sass/dpl/_width.scss */
   .container .pc-span4 {
     width: 33.33333%;
     float: left;
   }
-  /* line 76, ../sass/dpl/_width.scss */
+  /* line 42, ../sass/dpl/_width.scss */
   .container .pc-span4::before, .container .pc-span4::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 81, ../sass/dpl/_width.scss */
+  /* line 47, ../sass/dpl/_width.scss */
   .container .pc-span4::after {
     clear: both;
   }
-  /* line 73, ../sass/dpl/_width.scss */
+  /* line 39, ../sass/dpl/_width.scss */
   .container .pc-span5 {
     width: 41.66667%;
     float: left;
   }
-  /* line 76, ../sass/dpl/_width.scss */
+  /* line 42, ../sass/dpl/_width.scss */
   .container .pc-span5::before, .container .pc-span5::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 81, ../sass/dpl/_width.scss */
+  /* line 47, ../sass/dpl/_width.scss */
   .container .pc-span5::after {
     clear: both;
   }
-  /* line 73, ../sass/dpl/_width.scss */
+  /* line 39, ../sass/dpl/_width.scss */
   .container .pc-span6 {
     width: 50.0%;
     float: left;
   }
-  /* line 76, ../sass/dpl/_width.scss */
+  /* line 42, ../sass/dpl/_width.scss */
   .container .pc-span6::before, .container .pc-span6::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 81, ../sass/dpl/_width.scss */
+  /* line 47, ../sass/dpl/_width.scss */
   .container .pc-span6::after {
     clear: both;
   }
-  /* line 73, ../sass/dpl/_width.scss */
+  /* line 39, ../sass/dpl/_width.scss */
   .container .pc-span7 {
     width: 58.33333%;
     float: left;
   }
-  /* line 76, ../sass/dpl/_width.scss */
+  /* line 42, ../sass/dpl/_width.scss */
   .container .pc-span7::before, .container .pc-span7::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 81, ../sass/dpl/_width.scss */
+  /* line 47, ../sass/dpl/_width.scss */
   .container .pc-span7::after {
     clear: both;
   }
-  /* line 73, ../sass/dpl/_width.scss */
+  /* line 39, ../sass/dpl/_width.scss */
   .container .pc-span8 {
     width: 66.66667%;
     float: left;
   }
-  /* line 76, ../sass/dpl/_width.scss */
+  /* line 42, ../sass/dpl/_width.scss */
   .container .pc-span8::before, .container .pc-span8::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 81, ../sass/dpl/_width.scss */
+  /* line 47, ../sass/dpl/_width.scss */
   .container .pc-span8::after {
     clear: both;
   }
-  /* line 73, ../sass/dpl/_width.scss */
+  /* line 39, ../sass/dpl/_width.scss */
   .container .pc-span9 {
     width: 75.0%;
     float: left;
   }
-  /* line 76, ../sass/dpl/_width.scss */
+  /* line 42, ../sass/dpl/_width.scss */
   .container .pc-span9::before, .container .pc-span9::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 81, ../sass/dpl/_width.scss */
+  /* line 47, ../sass/dpl/_width.scss */
   .container .pc-span9::after {
     clear: both;
   }
-  /* line 73, ../sass/dpl/_width.scss */
+  /* line 39, ../sass/dpl/_width.scss */
   .container .pc-span10 {
     width: 83.33333%;
     float: left;
   }
-  /* line 76, ../sass/dpl/_width.scss */
+  /* line 42, ../sass/dpl/_width.scss */
   .container .pc-span10::before, .container .pc-span10::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 81, ../sass/dpl/_width.scss */
+  /* line 47, ../sass/dpl/_width.scss */
   .container .pc-span10::after {
     clear: both;
   }
-  /* line 73, ../sass/dpl/_width.scss */
+  /* line 39, ../sass/dpl/_width.scss */
   .container .pc-span11 {
     width: 91.66667%;
     float: left;
   }
-  /* line 76, ../sass/dpl/_width.scss */
+  /* line 42, ../sass/dpl/_width.scss */
   .container .pc-span11::before, .container .pc-span11::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 81, ../sass/dpl/_width.scss */
+  /* line 47, ../sass/dpl/_width.scss */
   .container .pc-span11::after {
     clear: both;
   }
-  /* line 73, ../sass/dpl/_width.scss */
+  /* line 39, ../sass/dpl/_width.scss */
   .container .pc-span12 {
     width: 100.0%;
     float: left;
   }
-  /* line 76, ../sass/dpl/_width.scss */
+  /* line 42, ../sass/dpl/_width.scss */
   .container .pc-span12::before, .container .pc-span12::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 81, ../sass/dpl/_width.scss */
+  /* line 47, ../sass/dpl/_width.scss */
   .container .pc-span12::after {
     clear: both;
   }
-  /* line 87, ../sass/dpl/_width.scss */
+  /* line 53, ../sass/dpl/_width.scss */
   .container .pc-span-offset1 {
     margin-left: 8.33333%;
     float: left;
   }
-  /* line 87, ../sass/dpl/_width.scss */
+  /* line 53, ../sass/dpl/_width.scss */
   .container .pc-span-offset2 {
     margin-left: 16.66667%;
     float: left;
   }
-  /* line 87, ../sass/dpl/_width.scss */
+  /* line 53, ../sass/dpl/_width.scss */
   .container .pc-span-offset3 {
     margin-left: 25.0%;
     float: left;
   }
-  /* line 87, ../sass/dpl/_width.scss */
+  /* line 53, ../sass/dpl/_width.scss */
   .container .pc-span-offset4 {
     margin-left: 33.33333%;
     float: left;
   }
-  /* line 87, ../sass/dpl/_width.scss */
+  /* line 53, ../sass/dpl/_width.scss */
   .container .pc-span-offset5 {
     margin-left: 41.66667%;
     float: left;
   }
-  /* line 87, ../sass/dpl/_width.scss */
+  /* line 53, ../sass/dpl/_width.scss */
   .container .pc-span-offset6 {
     margin-left: 50.0%;
     float: left;
   }
-  /* line 87, ../sass/dpl/_width.scss */
+  /* line 53, ../sass/dpl/_width.scss */
   .container .pc-span-offset7 {
     margin-left: 58.33333%;
     float: left;
   }
-  /* line 87, ../sass/dpl/_width.scss */
+  /* line 53, ../sass/dpl/_width.scss */
   .container .pc-span-offset8 {
     margin-left: 66.66667%;
     float: left;
   }
-  /* line 87, ../sass/dpl/_width.scss */
+  /* line 53, ../sass/dpl/_width.scss */
   .container .pc-span-offset9 {
     margin-left: 75.0%;
     float: left;
   }
-  /* line 87, ../sass/dpl/_width.scss */
+  /* line 53, ../sass/dpl/_width.scss */
   .container .pc-span-offset10 {
     margin-left: 83.33333%;
     float: left;
   }
-  /* line 87, ../sass/dpl/_width.scss */
+  /* line 53, ../sass/dpl/_width.scss */
   .container .pc-span-offset11 {
     margin-left: 91.66667%;
     float: left;
   }
-  /* line 87, ../sass/dpl/_width.scss */
+  /* line 53, ../sass/dpl/_width.scss */
   .container .pc-span-offset12 {
     margin-left: 100.0%;
     float: left;
   }
 }
-@media screen and (min-width: 1200px) {
-  /* line 95, ../sass/dpl/_width.scss */
+/* line 60, ../sass/dpl/_width.scss */
+.container {
+  width: 970px;
+  margin: 0 auto;
+}
+/* line 63, ../sass/dpl/_width.scss */
+.container::before, .container::after {
+  content: '';
+  display: table;
+  line-height: 0;
+}
+/* line 68, ../sass/dpl/_width.scss */
+.container::after {
+  clear: both;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 93, ../sass/dpl/_width.scss */
   .container {
-    width: 1170px;
+    width: 750px;
   }
-  /* line 98, ../sass/dpl/_width.scss */
+  /* line 96, ../sass/dpl/_width.scss */
   .container .pc-span1 {
     width: 8.33333%;
     float: left;
   }
-  /* line 101, ../sass/dpl/_width.scss */
+  /* line 99, ../sass/dpl/_width.scss */
   .container .pc-span1::before, .container .pc-span1::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 106, ../sass/dpl/_width.scss */
+  /* line 104, ../sass/dpl/_width.scss */
   .container .pc-span1::after {
     clear: both;
   }
-  /* line 98, ../sass/dpl/_width.scss */
+  /* line 96, ../sass/dpl/_width.scss */
   .container .pc-span2 {
     width: 16.66667%;
     float: left;
   }
-  /* line 101, ../sass/dpl/_width.scss */
+  /* line 99, ../sass/dpl/_width.scss */
   .container .pc-span2::before, .container .pc-span2::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 106, ../sass/dpl/_width.scss */
+  /* line 104, ../sass/dpl/_width.scss */
   .container .pc-span2::after {
     clear: both;
   }
-  /* line 98, ../sass/dpl/_width.scss */
+  /* line 96, ../sass/dpl/_width.scss */
   .container .pc-span3 {
     width: 25.0%;
     float: left;
   }
-  /* line 101, ../sass/dpl/_width.scss */
+  /* line 99, ../sass/dpl/_width.scss */
   .container .pc-span3::before, .container .pc-span3::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 106, ../sass/dpl/_width.scss */
+  /* line 104, ../sass/dpl/_width.scss */
   .container .pc-span3::after {
     clear: both;
   }
-  /* line 98, ../sass/dpl/_width.scss */
+  /* line 96, ../sass/dpl/_width.scss */
   .container .pc-span4 {
     width: 33.33333%;
     float: left;
   }
-  /* line 101, ../sass/dpl/_width.scss */
+  /* line 99, ../sass/dpl/_width.scss */
   .container .pc-span4::before, .container .pc-span4::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 106, ../sass/dpl/_width.scss */
+  /* line 104, ../sass/dpl/_width.scss */
   .container .pc-span4::after {
     clear: both;
   }
-  /* line 98, ../sass/dpl/_width.scss */
+  /* line 96, ../sass/dpl/_width.scss */
   .container .pc-span5 {
     width: 41.66667%;
     float: left;
   }
-  /* line 101, ../sass/dpl/_width.scss */
+  /* line 99, ../sass/dpl/_width.scss */
   .container .pc-span5::before, .container .pc-span5::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 106, ../sass/dpl/_width.scss */
+  /* line 104, ../sass/dpl/_width.scss */
   .container .pc-span5::after {
     clear: both;
   }
-  /* line 98, ../sass/dpl/_width.scss */
+  /* line 96, ../sass/dpl/_width.scss */
   .container .pc-span6 {
     width: 50.0%;
     float: left;
   }
-  /* line 101, ../sass/dpl/_width.scss */
+  /* line 99, ../sass/dpl/_width.scss */
   .container .pc-span6::before, .container .pc-span6::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 106, ../sass/dpl/_width.scss */
+  /* line 104, ../sass/dpl/_width.scss */
   .container .pc-span6::after {
     clear: both;
   }
-  /* line 98, ../sass/dpl/_width.scss */
+  /* line 96, ../sass/dpl/_width.scss */
   .container .pc-span7 {
     width: 58.33333%;
     float: left;
   }
-  /* line 101, ../sass/dpl/_width.scss */
+  /* line 99, ../sass/dpl/_width.scss */
   .container .pc-span7::before, .container .pc-span7::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 106, ../sass/dpl/_width.scss */
+  /* line 104, ../sass/dpl/_width.scss */
   .container .pc-span7::after {
     clear: both;
   }
-  /* line 98, ../sass/dpl/_width.scss */
+  /* line 96, ../sass/dpl/_width.scss */
   .container .pc-span8 {
     width: 66.66667%;
     float: left;
   }
-  /* line 101, ../sass/dpl/_width.scss */
+  /* line 99, ../sass/dpl/_width.scss */
   .container .pc-span8::before, .container .pc-span8::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 106, ../sass/dpl/_width.scss */
+  /* line 104, ../sass/dpl/_width.scss */
   .container .pc-span8::after {
     clear: both;
   }
-  /* line 98, ../sass/dpl/_width.scss */
+  /* line 96, ../sass/dpl/_width.scss */
   .container .pc-span9 {
     width: 75.0%;
     float: left;
   }
-  /* line 101, ../sass/dpl/_width.scss */
+  /* line 99, ../sass/dpl/_width.scss */
   .container .pc-span9::before, .container .pc-span9::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 106, ../sass/dpl/_width.scss */
+  /* line 104, ../sass/dpl/_width.scss */
   .container .pc-span9::after {
     clear: both;
   }
-  /* line 98, ../sass/dpl/_width.scss */
+  /* line 96, ../sass/dpl/_width.scss */
   .container .pc-span10 {
     width: 83.33333%;
     float: left;
   }
-  /* line 101, ../sass/dpl/_width.scss */
+  /* line 99, ../sass/dpl/_width.scss */
   .container .pc-span10::before, .container .pc-span10::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 106, ../sass/dpl/_width.scss */
+  /* line 104, ../sass/dpl/_width.scss */
   .container .pc-span10::after {
     clear: both;
   }
-  /* line 98, ../sass/dpl/_width.scss */
+  /* line 96, ../sass/dpl/_width.scss */
   .container .pc-span11 {
     width: 91.66667%;
     float: left;
   }
-  /* line 101, ../sass/dpl/_width.scss */
+  /* line 99, ../sass/dpl/_width.scss */
   .container .pc-span11::before, .container .pc-span11::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 106, ../sass/dpl/_width.scss */
+  /* line 104, ../sass/dpl/_width.scss */
   .container .pc-span11::after {
     clear: both;
   }
-  /* line 98, ../sass/dpl/_width.scss */
+  /* line 96, ../sass/dpl/_width.scss */
   .container .pc-span12 {
     width: 100.0%;
     float: left;
   }
-  /* line 101, ../sass/dpl/_width.scss */
+  /* line 99, ../sass/dpl/_width.scss */
   .container .pc-span12::before, .container .pc-span12::after {
     content: '';
     display: table;
     line-height: 0;
   }
-  /* line 106, ../sass/dpl/_width.scss */
+  /* line 104, ../sass/dpl/_width.scss */
   .container .pc-span12::after {
     clear: both;
   }
-  /* line 112, ../sass/dpl/_width.scss */
+  /* line 110, ../sass/dpl/_width.scss */
   .container .pc-span-offset1 {
     margin-left: 8.33333%;
     float: left;
   }
-  /* line 112, ../sass/dpl/_width.scss */
+  /* line 110, ../sass/dpl/_width.scss */
   .container .pc-span-offset2 {
     margin-left: 16.66667%;
     float: left;
   }
-  /* line 112, ../sass/dpl/_width.scss */
+  /* line 110, ../sass/dpl/_width.scss */
   .container .pc-span-offset3 {
     margin-left: 25.0%;
     float: left;
   }
-  /* line 112, ../sass/dpl/_width.scss */
+  /* line 110, ../sass/dpl/_width.scss */
   .container .pc-span-offset4 {
     margin-left: 33.33333%;
     float: left;
   }
-  /* line 112, ../sass/dpl/_width.scss */
+  /* line 110, ../sass/dpl/_width.scss */
   .container .pc-span-offset5 {
     margin-left: 41.66667%;
     float: left;
   }
-  /* line 112, ../sass/dpl/_width.scss */
+  /* line 110, ../sass/dpl/_width.scss */
   .container .pc-span-offset6 {
     margin-left: 50.0%;
     float: left;
   }
-  /* line 112, ../sass/dpl/_width.scss */
+  /* line 110, ../sass/dpl/_width.scss */
   .container .pc-span-offset7 {
     margin-left: 58.33333%;
     float: left;
   }
-  /* line 112, ../sass/dpl/_width.scss */
+  /* line 110, ../sass/dpl/_width.scss */
   .container .pc-span-offset8 {
     margin-left: 66.66667%;
     float: left;
   }
-  /* line 112, ../sass/dpl/_width.scss */
+  /* line 110, ../sass/dpl/_width.scss */
   .container .pc-span-offset9 {
     margin-left: 75.0%;
     float: left;
   }
-  /* line 112, ../sass/dpl/_width.scss */
+  /* line 110, ../sass/dpl/_width.scss */
   .container .pc-span-offset10 {
     margin-left: 83.33333%;
     float: left;
   }
-  /* line 112, ../sass/dpl/_width.scss */
+  /* line 110, ../sass/dpl/_width.scss */
   .container .pc-span-offset11 {
     margin-left: 91.66667%;
     float: left;
   }
-  /* line 112, ../sass/dpl/_width.scss */
+  /* line 110, ../sass/dpl/_width.scss */
   .container .pc-span-offset12 {
     margin-left: 100.0%;
     float: left;
@@ -1375,73 +1375,61 @@ input[type="checkbox"]:focus {
 }
 /* line 145, ../sass/dpl/_width.scss */
 .span1 {
-  width: 8.33333%;
+  width: 10%;
   float: left;
 }
 
 /* line 145, ../sass/dpl/_width.scss */
 .span2 {
-  width: 16.66667%;
+  width: 20%;
   float: left;
 }
 
 /* line 145, ../sass/dpl/_width.scss */
 .span3 {
-  width: 25.0%;
+  width: 30%;
   float: left;
 }
 
 /* line 145, ../sass/dpl/_width.scss */
 .span4 {
-  width: 33.33333%;
+  width: 40%;
   float: left;
 }
 
 /* line 145, ../sass/dpl/_width.scss */
 .span5 {
-  width: 41.66667%;
+  width: 50%;
   float: left;
 }
 
 /* line 145, ../sass/dpl/_width.scss */
 .span6 {
-  width: 50.0%;
+  width: 60%;
   float: left;
 }
 
 /* line 145, ../sass/dpl/_width.scss */
 .span7 {
-  width: 58.33333%;
+  width: 70%;
   float: left;
 }
 
 /* line 145, ../sass/dpl/_width.scss */
 .span8 {
-  width: 66.66667%;
+  width: 80%;
   float: left;
 }
 
 /* line 145, ../sass/dpl/_width.scss */
 .span9 {
-  width: 75.0%;
+  width: 90%;
   float: left;
 }
 
 /* line 145, ../sass/dpl/_width.scss */
 .span10 {
-  width: 83.33333%;
-  float: left;
-}
-
-/* line 145, ../sass/dpl/_width.scss */
-.span11 {
-  width: 91.66667%;
-  float: left;
-}
-
-/* line 145, ../sass/dpl/_width.scss */
-.span12 {
-  width: 100.0%;
+  width: 100%;
   float: left;
 }
 
